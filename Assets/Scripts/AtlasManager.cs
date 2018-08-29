@@ -18,7 +18,7 @@ public class AtlasManager : MonoBehaviour, IManager
         Debug.Log(string.Format("{0} status = {1} ", GetType().Name, CurrentState));
     }
 
-    public static Sprite LoadSprite(string spriteName)
+    public Sprite LoadSprite(string spriteName)
     {
         foreach (Sprite s in sprites)
         {
