@@ -15,7 +15,7 @@ public class AtlasManager : MonoBehaviour, IManager
         sprites = Resources.LoadAll<Sprite>("EventAtlas");
         CurrentState = ManagerState.Completed;
 
-        Debug.Log(string.Format("{0} status = {1] ", GetType().Name, CurrentState));
+        Debug.Log(string.Format("{0} status = {1} ", GetType().Name, CurrentState));
     }
 
     public static Sprite LoadSprite(string spriteName)
