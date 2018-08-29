@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 22bcc5cf7227bf6478dfb4cca23f0c62
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EventAtlas
+    21300002: BG
+    21300004: Hero_Angry
+    21300006: Hero_Default
+    21300008: Hero_Surprised
+    21300010: Heroine_Angry
+    21300012: Heroine_Neutral
+    21300014: Heroine_Surprised
+    21300016: Parchment
+    21300018: Wizard
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2559
+        width: 2731
+        height: 1536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8777048da75b6e543863b53536bed48c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Angry
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 473
+        width: 916
+        height: 1104
+      alignment: 9
+      pivot: {x: -0.4492358, y: 0.6956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6bcf0bb35a7674aadd9565f78831fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Default
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1453
+        width: 916
+        height: 1104
+      alignment: 9
+      pivot: {x: -0.4492358, y: 0.6956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec10d6089922d74aab1133f85b5eb88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Surprised
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 404
+        width: 916
+        height: 1104
+      alignment: 9
+      pivot: {x: -0.4492358, y: 0.6956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff590c073caffc04e859d4461b57e9cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine_Angry
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 3048
+        width: 923
+        height: 1047
+      alignment: 9
+      pivot: {x: 1.4024919, y: 0.7335244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826c8b04a3b95e74f93ea5e217ebc0af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine_Neutral
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 404
+        width: 923
+        height: 1047
+      alignment: 9
+      pivot: {x: 1.4024919, y: 0.7335244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1598f44b912c75b4ea10abec9a04e9ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine_Surprised
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1510
+        width: 924
+        height: 1047
+      alignment: 9
+      pivot: {x: 1.4020563, y: 0.7335244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8a4d8b9227acc448eba9a476801acc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parchment
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2730
+        width: 1106
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5049729, y: 0.49050632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c95186e577d00408e443fdf24c866c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1579
+        width: 1155
+        height: 978
+      alignment: 9
+      pivot: {x: 0.43160173, y: 0.78527606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3f52a91f6e22b45aefd1da0e552e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b7615d3ce7dd101449674f0307c9fbe0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
