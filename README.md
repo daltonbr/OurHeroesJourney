@@ -14,9 +14,9 @@ See my [Course Notes](BuildACharacterDialogueSystem.md) to see more in-depth inf
 
 ## Tools
 
-[litjson.net](https://litjson.net/)
-[TexturePacker](https://www.codeandweb.com/texturepacker)
-[Unity 2018.2.5f1](https://unity3d.com/)
+* [litjson.net](https://litjson.net/) - an open-source JSON library
+* [TexturePacker](https://www.codeandweb.com/texturepacker) - free and pro versions to create Texture Atlas
+* [Unity 2018.2.5f1](https://unity3d.com/)
 
 ## A Dialogue in JSON
 

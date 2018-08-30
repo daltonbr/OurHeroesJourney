@@ -111,5 +111,5 @@ Interfaces are a useful to:
 * writing clearer code
 * abstracting out common properties and behaviors
 
-Q: What should all good game architecture have?
+Q: What should all good game architecture have?  
 A: An overall access point for important systems
