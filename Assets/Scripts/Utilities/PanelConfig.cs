@@ -37,7 +37,7 @@ public class PanelConfig : MonoBehaviour
 
         if (CharacterIsTalking)
         {
-            StartCoroutine(AnimateText(currentDialogue.dialogueText));
+            StartCoroutine(AnimateText(currentDialogue.dialogueText, 0.03f));
         }
         else
         {
