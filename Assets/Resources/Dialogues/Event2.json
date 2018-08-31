@@ -1,0 +1,34 @@
+{
+    "dialogues": [
+      {
+        "characterType": 1,
+        "name": "Hero",
+        "atlasImageName": "Heroine_Neutral",
+        "dialogueText": "Time to address the Call to Adventure."
+      },
+      {
+        "characterType": 0,
+        "name": "Ally",
+        "atlasImageName": "Hero_Surprised",
+        "dialogueText": "Are you sure? I might need some coffee first."
+      },
+      {
+        "characterType": 1,
+        "name": "Hero",
+        "atlasImageName": "Heroine_Angry",
+        "dialogueText": "I'm quite sure, I've never felt more alive."
+      },
+      {
+        "characterType": 0,
+        "name": "Ally",
+        "atlasImageName": "Hero_Default",
+        "dialogueText": "Maybe we should consult the Mentor first."
+      },
+      {
+        "characterType": 2,
+        "name": "Mentor",
+        "atlasImageName": "Wizard",
+        "dialogueText": "I couldn't help overhearing. Is there a quest afoot?"
+      }
+    ]
+}

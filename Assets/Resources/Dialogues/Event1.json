@@ -1,34 +1,65 @@
 {
-    "dialogues": [
-      {
-        "characterType": 1,
-        "name": "Hero",
-        "atlasImageName": "Heroine_Neutral",
-        "dialogueText": "Time to address the Call to Adventure."
-      },
-      {
-        "characterType": 0,
-        "name": "Ally",
-        "atlasImageName": "Hero_Surprised",
-        "dialogueText": "Are you sure? I might need some coffee first."
-      },
-      {
-        "characterType": 1,
-        "name": "Hero",
-        "atlasImageName": "Heroine_Angry",
-        "dialogueText": "I'm quite sure, I've never felt more alive."
-      },
-      {
-        "characterType": 0,
-        "name": "Ally",
-        "atlasImageName": "Hero_Default",
-        "dialogueText": "Maybe we should consult the Mentor first."
-      },
-      {
-        "characterType": 2,
-        "name": "Mentor",
-        "atlasImageName": "Wizard",
-        "dialogueText": "I couldn't help overhearing. Is there a quest afoot?"
-      }
-    ]
+  "dialogues": [
+    {
+      "characterType": 1,
+      "name": "Interviewer",
+      "atlasImageName": "Heroine_Neutral",
+      "dialogueText": "Why do you want to work here in the castle?"
+    },
+    {
+      "characterType": 0,
+      "name": "Medieval Programmer",
+      "atlasImageName": "Hero_Surprised",
+      "dialogueText": "My mom said I had to get a job."
+    },
+    {
+      "characterType": 1,
+      "name": "Interviewer",
+      "atlasImageName": "Heroine_Surprised",
+      "dialogueText": "Why should we hire you?"
+    },
+    {
+      "characterType": 0,
+      "name": "Medieval Programmer",
+      "atlasImageName": "Hero_Default",
+      "dialogueText": "I don't know."
+    },
+    {
+      "characterType": 1,
+      "name": "Interviewer",
+      "atlasImageName": "Heroine_Angry",
+      "dialogueText": "Ahn...OK!\nWhat's your biggest weakness?"
+    },
+    {
+      "characterType": 0,
+      "name": "Medieval Programmer",
+      "atlasImageName": "Hero_Surprised",
+      "dialogueText": "Well, I am a perfectionist!"
+    },
+    {
+      "characterType": 1,
+      "name": "Interviewer",
+      "atlasImageName": "Heroine_Surprised",
+      "dialogueText": "..."
+    },
+    {
+      "characterType": 0,
+      "name": "Medieval Programmer",
+      "atlasImageName": "Hero_Surprised",
+      "dialogueText": "..."
+    },
+
+    {
+      "characterType": 2,
+      "name": "Jim Lahey \"Castle CTO\"",
+      "atlasImageName": "Wizard",
+      "dialogueText": "Hired!"
+    },
+    {
+      "characterType": 0,
+      "name": "Medieval Programmer",
+      "atlasImageName": "Hero_Default",
+      "dialogueText": "Descent!"
+    }
+  ]
 }
