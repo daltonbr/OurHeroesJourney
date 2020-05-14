@@ -22,8 +22,8 @@ public class AnimationManager : MonoBehaviour, IManager
     {
         AnimationTuple introAnim = Constants.AnimationTuples.IntroAnimation;
         _panelAnimator.SetBool(introAnim.Parameter, introAnim.Value);
-
-        yield return new WaitForSeconds(1);
+        yield return null;
+        //yield return new WaitForSeconds(1);
     }
 
     public IEnumerator ExitAnimation()
@@ -31,7 +31,8 @@ public class AnimationManager : MonoBehaviour, IManager
         AnimationTuple exitAnim = Constants.AnimationTuples.ExitAnimation;
         _panelAnimator.SetBool(exitAnim.Parameter, exitAnim.Value);
 
-        yield return new WaitForSeconds(1);
+        yield return null;
+        //yield return new WaitForSeconds(1);
     }
 
 }

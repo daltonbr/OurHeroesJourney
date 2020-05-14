@@ -1,22 +1,28 @@
 # A Character Dialogue System in Unity with JSON
 
-by Harrison Ferrone
-
-[www.linkedin.com/learning/unity-5-build-a-character-dialogue-system/](https://www.linkedin.com/learning/unity-5-build-a-character-dialogue-system/)
+![Dialogue](Dialogue.PNG)
 
 ## Summary
 
-Game programmers and designers are often left to fend for themselves when learning how to write, structure, and manage efficient event systems of their own making. This course has two goals: (1) to convey how fundamental programming patterns and industry standards apply to game development and (2) to equip developers with the theoretical tools needed to inject their projects with engaging narratives, resulting in emotional player investment that comes with story-driven gameplay. This course also covers story-driven game design theory, creating the building blocks of an interactive system, abstracting building blocks into a scalable management class, and more.
+Game programmers and designers are often left to fend for themselves when learning how to write, structure, and manage efficient event systems of their own making.
+This project display the building blocks of an interactive system, abstracting building blocks into a scalable management class.
 
-![Dialogue](Dialogue.PNG)
+In this project we have two goals:
 
-See my [Course Notes](BuildACharacterDialogueSystem.md) to see more in-depth information.
+1. to convey how fundamental programming patterns and industry standards apply to game development.
+2. to equip developers with the theoretical tools needed to inject their projects with engaging narratives, resulting in emotional player investment that comes with story-driven gameplay.
+
+See my [Course Notes](BuildACharacterDialogueSystem.md) to more in-depth information.
 
 ## Tools
 
-* [litjson.net](https://litjson.net/) - an open-source JSON library
+* [litJSON.net](https://litjson.net/) - an open-source JSON library
 * [TexturePacker](https://www.codeandweb.com/texturepacker) - free and pro versions to create Texture Atlas
 * [Unity 2019.3.13f1](https://unity3d.com/)
+
+## Credits
+
+Based on [this course](https://www.linkedin.com/learning/unity-5-build-a-character-dialogue-system/) from Harrison Ferrone.
 
 ## A Dialogue in JSON
 
@@ -38,4 +44,5 @@ See my [Course Notes](BuildACharacterDialogueSystem.md) to see more in-depth inf
         }
   ]
 }
+
 ```

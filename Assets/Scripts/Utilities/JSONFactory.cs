@@ -11,20 +11,22 @@ using LitJson;
 
 namespace JSONFactory
 {
-    public class JSONAssembly        
+    public class JSONAssembly
     {
+        private const string PathToDialogueScene0 = "/Resources/Dialogues/Event1.json";
+
         private static Dictionary<int, string> _resourceList = new Dictionary<int, string>
         {
-            {1, "/Resources/Dialogues/Event1.json" }            
+            {0, $"{Application.dataPath}/{PathToDialogueScene0}"}
         };
 
         public static NarrativeEvent RunJSONFactoryForScene(int sceneNumber)
         {
             string resourcePath = PathForScene(sceneNumber);
 
-            if (IsValidJSON(resourcePath) == true)
+            if (IsValidJSON(resourcePath))
             {
-                string jsonString = File.ReadAllText(Application.dataPath + resourcePath);
+                string jsonString = File.ReadAllText(resourcePath);
                 NarrativeEvent narrativeEvent = JsonMapper.ToObject<NarrativeEvent>(jsonString);
                 return narrativeEvent;
             }
@@ -50,7 +52,7 @@ namespace JSONFactory
 
         private static bool IsValidJSON(string path)
         {
-            // TODO: we can improve this validation later
+            // TODO: we can improve this validation
             return (Path.GetExtension(path) == ".json");
         }
 

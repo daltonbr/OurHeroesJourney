@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,26 +34,28 @@ public class PanelConfig : MonoBehaviour
 
         AvatarImage.sprite = MasterManager.AtlasManager.LoadSprite(currentDialogue.atlasImageName);
         CharacterName.text = currentDialogue.name;
-
+        
         if (CharacterIsTalking)
         {
             StartCoroutine(AnimateText(currentDialogue.dialogueText, 0.03f));
         }
         else
         {
-            Dialogue.text = "";
+            Dialogue.text = string.Empty;
         }
     }
 
     private IEnumerator AnimateText(string dialogueText, float timeBetweenCharacters = 0.05f)
     {
-        // TODO: validate if timeBetweenCharacters input        
-        Dialogue.text = "";
-
+        Dialogue.text = string.Empty;
+        StringBuilder builder = new StringBuilder(string.Empty, dialogueText.Length);
+        WaitForSeconds wait = new WaitForSeconds(timeBetweenCharacters);
+        
         foreach (char letter in dialogueText)
         {
-            Dialogue.text += letter;
-            yield return new WaitForSeconds(timeBetweenCharacters);
+            builder.Append(letter);
+            Dialogue.text = builder.ToString();
+            yield return wait;
         }
     }
 }
