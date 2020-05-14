@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class AtlasManager : MonoBehaviour, IManager
 {
@@ -10,12 +7,12 @@ public class AtlasManager : MonoBehaviour, IManager
 
     public void BootSequence()
     {
-        Debug.Log(string.Format("{0} is booting up", GetType().Name));
+        Debug.Log($"{GetType().Name} is booting up");
 
         sprites = Resources.LoadAll<Sprite>("EventAtlas");
         CurrentState = ManagerState.Completed;
 
-        Debug.Log(string.Format("{0} status = {1} ", GetType().Name, CurrentState));
+        Debug.Log($"{GetType().Name} status = {CurrentState} ");
     }
 
     public Sprite LoadSprite(string spriteName)

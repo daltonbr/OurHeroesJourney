@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,7 +44,7 @@ public class PanelConfig : MonoBehaviour
         }
     }
 
-    IEnumerator AnimateText(string dialogueText, float timeBetweenCharacters = 0.05f)
+    private IEnumerator AnimateText(string dialogueText, float timeBetweenCharacters = 0.05f)
     {
         // TODO: validate if timeBetweenCharacters input        
         Dialogue.text = "";

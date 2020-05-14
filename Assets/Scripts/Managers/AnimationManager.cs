@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Constants;
 
@@ -11,12 +10,12 @@ public class AnimationManager : MonoBehaviour, IManager
 
     public void BootSequence()
     {
-        Debug.Log(string.Format("{0} is booting up", GetType().Name));
+        Debug.Log($"{GetType().Name} is booting up");
 
         _panelAnimator = GameObject.Find("Canvas").GetComponent<Animator>();
         CurrentState = ManagerState.Completed;
 
-        Debug.Log(string.Format("{0} status = {1}", GetType().Name, CurrentState));
+        Debug.Log($"{GetType().Name} status = {CurrentState}");
     }
 
     public IEnumerator IntroAnimation()
